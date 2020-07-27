@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "898886388975",
+    "firebase_url": "https://cobafirebase-d09b7.firebaseio.com",
+    "project_id": "cobafirebase-d09b7",
+    "storage_bucket": "cobafirebase-d09b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898886388975:android:60218f63daa15bbe6bdf1a",
+        "android_client_info": {
+          "package_name": "id.azer.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898886388975-vb0m71ec1uo8gnsv80mo03pei8dqdii8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4ivRwmFbaelrXQriWw-6zcya_dBBsrNk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898886388975-vb0m71ec1uo8gnsv80mo03pei8dqdii8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

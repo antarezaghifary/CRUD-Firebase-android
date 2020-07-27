@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="username"
+        tools:ignore="Autofill,HardcodedText,TextFields" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="email"
+        tools:ignore="Autofill,HardcodedText,TextFields"/>
+
+    <Button
+        android:onClick="insertData"
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="insert"
+        tools:ignore="Autofill,HardcodedText,TextFields"/>
+    <Button
+        android:onClick="updateData"
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="update"
+        tools:ignore="Autofill,HardcodedText,TextFields"/>
+    <Button
+        android:onClick="readData"
+        android:id="@+id/btnRead"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="read data"
+        tools:ignore="Autofill,HardcodedText,TextFields"/>
+
+</LinearLayout>
